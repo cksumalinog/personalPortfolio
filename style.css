@@ -5,3 +5,8 @@ html{
 h2{
     font-size: 30px;
 }
+
+.section{
+    text-align: center;
+    padding: 50px;
+}

@@ -10,3 +10,10 @@ h2{
     text-align: center;
     padding: 50px;
 }
+
+table, th, td{
+    width: 40px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}

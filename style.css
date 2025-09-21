@@ -1,5 +1,11 @@
 html{
     font-family: sans-serif;
+    color: white;
+}
+
+body{
+    background-image:url('/webPortImages/photomode_01082025_220423.png');
+    background-repeat: no-repeat;
 }
 
 h2{
@@ -17,8 +23,4 @@ table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
     padding: 30px;
-}
-
-#Table{
-    text-align: center;
 }

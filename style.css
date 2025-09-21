@@ -12,8 +12,13 @@ h2{
 }
 
 table, th, td{
+    text-align: center;
     width: 40px;
     border: 1px solid black;
     border-collapse: collapse;
-    padding: 15px;
+    padding: 30px;
+}
+
+#Table{
+    text-align: center;
 }

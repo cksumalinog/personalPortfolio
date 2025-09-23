@@ -1,21 +1,56 @@
 html{
     font-family: sans-serif;
-    color: black;
+    color: white;
+    background-color: #0c0d0d;
 }
 
-h2{
+h1{
     font-size: 30px;
 }
 
-.section{
-    text-align: center;
-    padding: 50px;
+h2{
+    font-size: 20px;
 }
 
-table, th, td{
+#container{
+    background-color: #141414;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform:
+        translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#container2{
+    background-color: #141414;
+    border-radius: 20px;
+    padding: 10px 50px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform:
+        translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#socials-section h2{
     text-align: center;
-    width: 40px;
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 30px;
+}
+
+#about-me-section p {
+    margin: 2px 0;   /* reduces top & bottom margin of each paragraph */
+    line-height: 1.2; /* adjusts spacing inside each line of text */
+}
+
+#cksImg{
+    height:280px;
+    float: left;
+    margin: 0px 10px 10px 10px;
+}
+
+span {
+    color: blue;
 }
